@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="29.2.7">
+  <diagram name="第 1 页" id="Fr8FXx4VDR5RxEbS9QbD">
+    <mxGraphModel dx="1418" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gf348qZvDLNjqqylfpoX-3" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输入图像" vertex="1">
+          <mxGeometry height="60" width="80" x="50" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-5" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="全景分割&lt;br&gt;seg" vertex="1">
+          <mxGeometry height="60" width="90" x="160" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-8" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="显著目标检测（场景识别）&lt;br&gt;sod" vertex="1">
+          <mxGeometry height="60" width="156.5" x="280" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="z轴旋转角度计算&lt;br&gt;zmodel" vertex="1">
+          <mxGeometry height="60" width="100" x="470" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-25" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="直线检测step1&lt;div&gt;linedetect_step1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="150" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-20" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" value="建筑" vertex="1">
+          <mxGeometry height="70" width="100" x="40" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-21" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" value="人像" vertex="1">
+          <mxGeometry height="70" width="100" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-24" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="直线检测step2&lt;div&gt;linedetect_step2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="290" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-28" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Gf348qZvDLNjqqylfpoX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-23" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="消失点估计（建筑梯形校正）&lt;div&gt;vp_estimators&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="165" x="436.5" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-29" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Gf348qZvDLNjqqylfpoX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="人体关键点检测（人像梯形校正）&lt;div&gt;body_keypoint&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="150" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="图像校正后处理&lt;br&gt;&amp;nbsp;adjust_post_process&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-35" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="人头检测&lt;br&gt;body_head" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-37" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="裁剪框生成&lt;br&gt;gen_anchors" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-39" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-36" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="裁剪框分数评估step1&lt;div&gt;ssc1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-41" edge="1" parent="1" source="Gf348qZvDLNjqqylfpoX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf348qZvDLNjqqylfpoX-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-38" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="裁剪框分数评估step2&lt;br&gt;ssc2" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf348qZvDLNjqqylfpoX-40" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="裁剪类型分类&lt;div&gt;croptype&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
